@@ -3,7 +3,7 @@
 ## Contents:
 - src: the codes of the generator.
 - multipliers: Verilog models of reproduced multipliers and our generated multipliers.
-- scripts: scripts for vivado.
+- scripts: tcl files for vivado flow and simulation.
 
 ## src
 #### Dependencies
@@ -15,7 +15,7 @@
 - Synopsys VCS
 
 #### How to run
-After solving the dependencies, open terminal and follow the steps:
+After solving the dependencies, open a terminal and follow the steps:
 
 Step-0: compile `yosys_plugins/gen_cgp/gen_cgp.cpp`:
 ```
@@ -38,27 +38,14 @@ yosys -Q -T -m gen_cgp.so -p "read_verilog \
 ../../gen_ha_multiplier/unsigned_8x8_mul_ha_array.v \
 ../../gen_ha_multiplier/ha_blackbox.v; \
 techmap; opt -purge; \
-gen_cgp mul.yaml"
+gen_cgp unsigned_8x8_mul_ha_array.yaml"
 cd ../../
 ```
-Rename `mul.yaml` as needed.
 
-- Step-3: run `opt.py` to search approximate multipliers:
+- Step-3: run `opt.py` to search approximate multipliers, for example:
 ```
 cd opt
 export PYTHONPATH=../cgp2verilog:../run_vivado:../get_results
-python3 opt.py \
--cgp_yaml <path_to_YAML_file> \
--opt_percent <desired_HA_opt_percent> \
--verilog_file <desired_verilog_filename> \
--verilog_top_file <path_to_top_verilog_file> \
--vivado_exe <path_to_vivado> \
--mae_testbench_file <path_to_mae_testbench> \
--mse_testbench_file <path_to_mse_testbench>
-cd ../
-```
-for example:
-```
 python3 opt.py \
 -cgp_yaml ../yosys_plugins/gen_cgp/unsigned_8x8_mul_ha_array.yaml \
 -opt_percent 0.5 \
@@ -67,6 +54,7 @@ python3 opt.py \
 -vivado_exe vivado \
 -mae_testbench_file ../gen_lut/ubit8x8_calc_mae_tb.v \
 -mse_testbench_file ../gen_lut/ubit8x8_calc_mse_tb.v
+cd ../
 ```
 
 - Step-4: run `get_mongo_results.py` to get multipliers:
@@ -154,11 +142,11 @@ G. Zervakis, K. Tsoumanis, S. Xydis, D. Soudris and K. Pekmestzi, "Design-Effici
 
 - Wallace
 
-An exact multiplier implemented by Wallace Tree technique.
+An exact multiplier is implemented by Wallace Tree technique.
 
 - Star
 
-An exact multiplier implemented using Verilog star operator, which is usually implemented by Xilinx IP.
+An exact multiplier writing with a Verilog star operator, which is usually implemented by Xilinx IP.
 
 
 ### ours
