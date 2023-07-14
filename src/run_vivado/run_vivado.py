@@ -21,7 +21,10 @@ def create_tcl(bench_info):
         print('file mkdir $outputDir', file=f)
         print(file=f)
         for file in bench_info['file(s)']:
-            print('read_verilog ' + abspath(expanduser(file)), file=f)
+            if file.endswith('.v'):
+                print('read_verilog ' + abspath(expanduser(file)), file=f)
+            if file.endswith('.vhd'):
+                print('read_vhdl ' + abspath(expanduser(file)), file=f)
         print(file=f)
         print('synth_design -top ' + bench_info['top'] + ' -part xcvu3p-ffvc1517-3-e -flatten full', file=f)
         print('create_clock -period 10 -name VCLK', file=f)
@@ -63,7 +66,7 @@ if __name__ == '__main__':
                     subprocess.run(['bsub', '-o', work_dir+'/bsub.log', '-R', 'rusage[mem=' + str(memory) + ']', cmd], stdout=subprocess.DEVNULL, cwd=work_dir)
                     print(bench_info['top'])
                     print()
-                    time.sleep(8)
+                    time.sleep(1)
                     break
                 else:
                     print('Waiting ....... ')
