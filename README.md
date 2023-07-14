@@ -2,7 +2,7 @@
 
 ## Contents:
 - src: the codes of the generator.
-- multipliers: Verilog models of open-source/reproduced multipliers and our generated multipliers with unsigend 8x8.
+- multipliers: Verilog models of reproduced multipliers and our generated multipliers.
 - scripts: scripts for vivado.
 
 ## src
@@ -158,10 +158,10 @@ An exact multiplier implemented by Wallace Tree technique.
 
 - Star
 
-An exact multiplier implemented using Verilog star operator, which is usually built by Xilinx IP.
+An exact multiplier implemented using Verilog star operator, which is usually implemented by Xilinx IP.
 
 
 ### ours
 
-Our generated unsigned 8x8 multipliers.
+Our generated multipliers.
 
