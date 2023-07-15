@@ -105,7 +105,7 @@ B. S. Prabakaran, V. Mrazek, Z. Vasicek, L. Sekanina and M. Shafique, "ApproxFPG
 
 - [TCAD22](https://cfaed.tu-dresden.de/pd-downloads)
 
-
+S. Ullah, S. Rehman, M. Shafique and A. Kumar, "High-Performance Accurate and Approximate Multipliers for FPGA-Based Hardware Accelerators," in IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems, vol. 41, no. 2, pp. 211-224, Feb. 2022, doi: 10.1109/TCAD.2021.3056337.
 
 ### reproduced unsigned 8x8 multipliers
 
