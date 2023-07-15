@@ -81,15 +81,31 @@ V. Mrazek, R. Hrbacek, Z. Vasicek and L. Sekanina, "EvoApprox8b:  Library of App
 
 V. Mrazek, Z. Vasicek, L. Sekanina, H. Jiang and J. Han, "Scalable Construction of Approximate Multipliers With Formally Guaranteed Worst Case Error," in IEEE Transactions on Very Large Scale Integration (VLSI) Systems, vol. 26, no. 11, pp. 2572-2576, Nov. 2018, doi: 10.1109/TVLSI.2018.2856362.
 
-- DRUM
+- [DRUM](https://github.com/scale-lab/DRUM)
 
 S. Hashemi, R. I. Bahar and S. Reda, "DRUM: A Dynamic Range Unbiased Multiplier for approximate applications," 2015 IEEE/ACM International Conference on Computer-Aided Design (ICCAD), 2015, pp. 418-425, doi: 10.1109/ICCAD.2015.7372600.
 
 <!-- Available at: https://github.com/scale-lab/DRUM and https://github.com/phyzhenli/DRUM. -->
 
-- FPT2022
+- [FPT2022](https://github.com/Yaoshangshang96/FPGA-based_approx_mult)
 
 S. Yao and L. Zhang, "Hardware-Efficient FPGA-Based Approximate Multipliers for Error-Tolerant Computing," 2022 International Conference on Field-Programmable Technology (ICFPT), Hong Kong, 2022, pp. 1-8, doi: 10.1109/ICFPT56656.2022.9974399.
+
+- [CaCc](https://cfaed.tudresden.de/pd-downloads)
+
+Salim Ullah, Semeen Rehman, Bharath Srinivas Prabakaran, Florian Kriebel, Muhammad Abdullah Hanif, Muhammad Shafique, and Akash Kumar. 2018. Area-optimized low-latency approximate multipliers for FPGA-based hardware accelerators. In Proceedings of the 55th Annual Design Automation Conference (DAC '18). Association for Computing Machinery, New York, NY, USA, Article 159, 1–6. https://doi.org/10.1145/3195970.3195996
+
+- [SMApproxLib](https://cfaed.tu-dresden.de/pd-downloads)
+
+Salim Ullah, Sanjeev Sripadraj Murthy, and Akash Kumar. 2018. SMApproxlib: library of FPGA-based approximate multipliers. In Proceedings of the 55th Annual Design Automation Conference (DAC '18). Association for Computing Machinery, New York, NY, USA, Article 157, 1–6. https://doi.org/10.1145/3195970.3196115
+
+- [ApproxFPGAs](https://github.com/ehw-fit/approx-fpgas)
+
+B. S. Prabakaran, V. Mrazek, Z. Vasicek, L. Sekanina and M. Shafique, "ApproxFPGAs: Embracing ASIC-Based Approximate Arithmetic Components for FPGA-Based Systems," 2020 57th ACM/IEEE Design Automation Conference (DAC), San Francisco, CA, USA, 2020, pp. 1-6, doi: 10.1109/DAC18072.2020.9218533.
+
+- [TCAD22](https://cfaed.tu-dresden.de/pd-downloads)
+
+
 
 ### reproduced unsigned 8x8 multipliers
 
