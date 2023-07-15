@@ -91,7 +91,7 @@ S. Hashemi, R. I. Bahar and S. Reda, "DRUM: A Dynamic Range Unbiased Multiplier 
 
 S. Yao and L. Zhang, "Hardware-Efficient FPGA-Based Approximate Multipliers for Error-Tolerant Computing," 2022 International Conference on Field-Programmable Technology (ICFPT), Hong Kong, 2022, pp. 1-8, doi: 10.1109/ICFPT56656.2022.9974399.
 
-- [CaCc](https://cfaed.tudresden.de/pd-downloads)
+- [CaCc](https://cfaed.tu-dresden.de/pd-downloads)
 
 Salim Ullah, Semeen Rehman, Bharath Srinivas Prabakaran, Florian Kriebel, Muhammad Abdullah Hanif, Muhammad Shafique, and Akash Kumar. 2018. Area-optimized low-latency approximate multipliers for FPGA-based hardware accelerators. In Proceedings of the 55th Annual Design Automation Conference (DAC '18). Association for Computing Machinery, New York, NY, USA, Article 159, 1–6. https://doi.org/10.1145/3195970.3195996
 
