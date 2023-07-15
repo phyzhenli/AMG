@@ -141,7 +141,7 @@ if __name__ == '__main__':
     print(sorted_ha_weights)
     print("size: ", len(ha_weights))
     print("bound weight: ", bound_weight)
-    exit()
+    # exit()
     space = gen_space(cgp, bound_weight)
     trials = MongoTrials(connect_string)
     # trials = Trials()
