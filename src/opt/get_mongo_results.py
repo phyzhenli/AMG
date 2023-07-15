@@ -25,6 +25,8 @@ if __name__ == '__main__':
     opt_percent = args.opt_percent
     verilogs_dir = args.verilogs_dir
 
+    subprocess.run(['mkdir', '-p', verilogs_dir])
+
     with open(cgp_yaml, 'r') as f:
         cgp = yaml.safe_load(f)
 
