@@ -66,6 +66,12 @@ cd ../
 
 ## multipliers
 
+### ours
+
+<img src="figs/mae_mse_product_1_PDA.png" width="400px">
+
+<img src="figs/mae_mse_product_1_CLB_LUTs.png" width="400px">
+
 ### open source
 
 - [EvoApprox8b](http://www.fit.vutbr.cz/research/groups/ehw/approxlib/)
@@ -163,9 +169,3 @@ An exact multiplier is implemented by Wallace Tree technique.
 - Star
 
 An exact multiplier writing with a Verilog star operator, which is usually implemented by Xilinx IP.
-
-
-### ours
-
-Our generated multipliers.
-
