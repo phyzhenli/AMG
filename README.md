@@ -1,6 +1,18 @@
-# Automated Efficient FPGA-Based Approximate Multipliers Generator via Black Box Optimization
+# AMG: Automated Efficient <ins>A</ins>pproximate <ins>M</ins>ultiplier <ins>G</ins>enerator for FPGAs via Bayesian Optimization
 
-## Contents:
+## cite
+If you use this repository, please cite our 2-page paper:
+```
+@INPROCEEDINGS{not_available_on_IEEE,
+  author={Li, Zhen and Zhou, Hao and Wang, Lingli},
+  booktitle={2023 IEEE International Conference on Field-Programmable Technology (ICFPT)}, 
+  title={AMG: Automated Efficient Approximate Multiplier Generator for FPGAs via Bayesian Optimization}, 
+  year={2023},
+  note={accepted}}
+```
+The 7-page version is available on arxiv: https://arxiv.org/abs/2310.15495.
+
+## contents:
 - src: the codes of the generator.
 - multipliers: Verilog models of reproduced multipliers and our generated multipliers.
 - scripts: tcl files for vivado flow and simulation.
@@ -68,9 +80,9 @@ cd ../
 
 ### ours
 
-<img src="figs/mae_mse_product_1_PDA.png" width="400px">
+<img src="figs/mae_mse_product_1_PDA.png" width="800px">
 
-<img src="figs/mae_mse_product_1_CLB_LUTs.png" width="400px">
+<img src="figs/mae_mse_product_1_CLB_LUTs.png" width="800px">
 
 ### open source
 
