@@ -3,12 +3,16 @@
 ## how to cite
 If you use this repository, we would appreciate a citation for our 2-page article:
 ```
-@INPROCEEDINGS{not_available_on_IEEE,
-  author={Li, Zhen and Zhou, Hao and Wang, Lingli},
-  booktitle={2023 IEEE International Conference on Field-Programmable Technology (ICFPT)}, 
+@INPROCEEDINGS{10416134,
+  author={Li, Zhen and Zhou, Hao and Wang, Lingli and Zhou, Xuegong},
+  booktitle={2023 International Conference on Field Programmable Technology (ICFPT)}, 
   title={AMG: Automated Efficient Approximate Multiplier Generator for FPGAs via Bayesian Optimization}, 
   year={2023},
-  note={accepted}}
+  volume={},
+  number={},
+  pages={294-295},
+  keywords={Source coding;Generators;Hardware;Bayes methods;Table lookup;Optimization;Field programmable gate arrays;Approximate Multiplier;FPGA;Bayesian Optimization},
+  doi={10.1109/ICFPT59805.2023.00052}}
 ```
 The 7-page version is available on arxiv: https://arxiv.org/abs/2310.15495.
 
