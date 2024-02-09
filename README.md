@@ -1,7 +1,7 @@
 # AMG: Automated Efficient <ins>A</ins>pproximate <ins>M</ins>ultiplier <ins>G</ins>enerator for FPGAs via Bayesian Optimization
 
 ## how to cite
-If you use this repository, we would appreciate a citation for our 2-page article:
+If you use this repository, we would appreciate a citation for our [2-page article](https://ieeexplore.ieee.org/document/10416134):
 ```
 @INPROCEEDINGS{10416134,
   author={Li, Zhen and Zhou, Hao and Wang, Lingli and Zhou, Xuegong},
